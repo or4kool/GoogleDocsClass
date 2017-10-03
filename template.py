@@ -3,7 +3,7 @@ from os.path import isfile, join
 
 
 class Template:
-    """select template, search document using a directory, view existing document, sorting documents which will be sorted alphabetically """
+    """select template, search document using a directory, view existing document, sorting documents which will be sorted alphabetically, open a document. """
 
     def __init__(self):
         # check if user is logged in.
