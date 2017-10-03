@@ -15,7 +15,6 @@ class Users:
     # create new user
     def create_user(self, user_info):
         self.write_to_file(user_info)
-        return 
 
     # Write user data into csv file
     @classmethod
@@ -27,7 +26,6 @@ class Users:
                 writer.writeheader()
                 cls.count += 1
             writer.writerow(file)
-        return True
 
     # Read user data from csv file
     @staticmethod
